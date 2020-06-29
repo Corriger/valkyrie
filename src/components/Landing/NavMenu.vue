@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import Vue from 'vue'
 Vue.component('menu-item', {
         props: ['option'],
         template: '<li>{{ option.text }}</li>'
@@ -21,7 +22,8 @@ var nav = new Vue({
       { id: 1, text: 'History' },
       { id: 2, text: 'Lifestyle' },
       { id: 3, text: 'Ability' },
-      { id: 4, text: 'Unleashed' }
+      { id: 4, text: 'Styles' },
+      { id: 5, text: 'Unleashed' }
     ]
   }
 })
@@ -32,7 +34,7 @@ export default {
 </script>
 
 <style scoped>
-ul {
+#nav {
   list-style: none;
   margin: 15px 0;
   display: flex;
@@ -40,4 +42,5 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+
 </style>
