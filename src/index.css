@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Autour+One");
+@import url("https://fonts.googleapis.com/css?family=Pirata+One");
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My Resets */
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #160010;
+  font-family: "Autour One", sans-serif;
+  color: #F2F2F2;
+  font-size: 15px;
+  overflow-y: hidden;
+}
+::-webkit-scrollbar {
+  background: #2e0000;
+  width: .667em;
+}
+::-webkit-scrollbar-thumb {
+  background: #f2f2f2;
+}
+
+
+a:link, a:visited, a:focus, a:active, a:hover, a {
+  text-decoration: none;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  color: inherit;
+}
+
+a:hover {
+  text-shadow: -1px 0px 1px #FFF, 0px -1px 1px #FFF, 0px 1px 1px #FFF, 1px 1px 1px #FFF;
+  text-transform: uppercase;
+  color: #FF0033;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: -1px 0px 2px #FFF, 0px -1px 2px #FFF, 0px 1px 2px #FFF, 1px 0px 2px #FFF;
+  color: red;
+  font-family: 'Pirata One', serif;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+strong {
+  font-family: 'Cinzel', serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Clearfix Hack */
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+/* End Clearfix Hack */
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+.component_container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.foreground{
+  width: 100%;
+  height: 100%;
+}
